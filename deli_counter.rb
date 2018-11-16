@@ -7,7 +7,7 @@ def line(katz_deli)
     if katz_deli
       puts "The line is currently #{katz_deli.index(x)+1}"
     else katz_deli.size == 0
-      return "The line is currently empty."
+      puts "The line is currently empty."
     end
   end
 end
